@@ -1,5 +1,5 @@
 # timeshift_show_snap_sizes
-A program to show approximate timeshift snapshot sizes rapidly
+A program to show approximate [timeshift](https://github.com/linuxmint/timeshift) snapshot sizes rapidly
 
 # Purpose
 
