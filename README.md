@@ -31,6 +31,35 @@ results left a lot to be desired.
 By comparison, this program completes on the same drive in rougly 5 minutes
 and gives far more meaningful results.
 
+# Sample Run
+
+~~~
+hightowe@eden /vol/wd_4T_usb_ext4A $ time sudo ./timeshift_show_snap_sizes.pl ./timeshift/snapshots
+Processing snapshots underneath ./timeshift/snapshots/...
+Snapshots (128):
+ - ./timeshift/snapshots/2024-08-01_06-15-39:   0.29G
+ - ./timeshift/snapshots/2024-09-01_06-15-38:   0.29G
+ - ./timeshift/snapshots/2024-10-01_06-15-31:   0.21G
+ - ./timeshift/snapshots/2024-11-01_06-15-31:   0.24G
+[...snip...]
+ - ./timeshift/snapshots/2025-07-04_05-45-09:   1.45G
+ - ./timeshift/snapshots/2025-07-05_05-45-13:   1.39G
+ - ./timeshift/snapshots/2025-07-06_05-45-13:   1.32G
+ - ./timeshift/snapshots/2025-07-07_05-45-07:   6.02G
+
+Analyzed 128 snapshots...
+Snapshot files total: 322.26G
+Snapshot dirs estimate:  45.12G (  0.35G each)
+Newest snapshot: 223.71G: ./timeshift/snapshots/2025-07-07_05-45-07
+Approximate total: 591.10G
+
+NOTE: Directories (usually 4KB each) are estimated and symlinks ignored.
+
+real   5m37.248s
+user   0m0.011s
+sys    0m0.005s
+~~~
+
 # Written By
 
 Lester Hightower, in March of 2025.
