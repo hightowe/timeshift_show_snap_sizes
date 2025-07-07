@@ -28,7 +28,7 @@ The motivation for this program was that running du over the timeshift USB
 harddrive target of my workstation took almost 6 hours to complete and the
 results left a lot to be desired.
 
-By comparison, this program completes on the same drive in rougly 5 minutes
+By comparison, this program completes on the same drive in roughly 5 minutes
 and gives far more meaningful results.
 
 # Sample Run
