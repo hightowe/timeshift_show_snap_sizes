@@ -4,7 +4,7 @@ A program to show approximate timeshift snapshot sizes rapidly
 # Purpose
 
 This program strives to show approximate timeshift snapshot sizes far more
-rapidly and directionally more accurate than "`du -sh
+rapidly and directionally more accurately than "`du -sh
 ./timeshift/snapshots/*`" can.
 
 # Methodology
@@ -25,7 +25,7 @@ device or have the snapshots path provided as an argument:
 # Motivation and Results
 
 The motivation for this program was that running du over the timeshift USB
-harddrive target of my workstation foor almost 6 hours to complete and the
+harddrive target of my workstation took almost 6 hours to complete and the
 results left a lot to be desired.
 
 By comparison, this program completes on the same drive in rougly 5 minutes
